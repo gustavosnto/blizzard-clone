@@ -29,9 +29,15 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1330px;
+  max-width: 133rem;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 124.6rem;
+  }
 }
 
 .btn {
@@ -106,7 +112,7 @@ button {
   color: rgba(229, 229, 229, 0.8);
 }
 
-header {
+.header {
   position: relative;
   width: 100%;
   height: 9.6rem;
@@ -119,7 +125,7 @@ header {
           align-items: center;
 }
 
-header .container {
+.header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +137,7 @@ header .container {
           justify-content: space-between;
 }
 
-header .left-container {
+.header .left-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,11 +146,11 @@ header .left-container {
           align-items: center;
 }
 
-header .left-container .logo {
+.header .left-container .logo {
   position: relative;
 }
 
-header .left-container .logo:after {
+.header .left-container .logo:after {
   content: '';
   width: 4.3rem;
   border-bottom: 2px solid #00AEFF;
@@ -153,11 +159,11 @@ header .left-container .logo:after {
   bottom: -2.9rem;
 }
 
-header .left-container nav {
+.header .left-container nav {
   margin-left: 11.2rem;
 }
 
-header .left-container nav ul {
+.header .left-container nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,11 +172,11 @@ header .left-container nav ul {
           align-items: center;
 }
 
-header .left-container nav ul li:not(:first-child) {
+.header .left-container nav ul li:not(:first-child) {
   margin-left: 3.4rem;
 }
 
-header .left-container nav ul li a {
+.header .left-container nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,11 +188,11 @@ header .left-container nav ul li a {
   line-height: 2.1rem;
 }
 
-header .left-container nav ul li a img {
+.header .left-container nav ul li a img {
   margin-left: 1.4rem;
 }
 
-header .right-container {
+.header .right-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,7 +201,7 @@ header .right-container {
           align-items: center;
 }
 
-header .right-container .btn:not(:first-child) {
+.header .right-container .btn:not(:first-child) {
   margin-left: 1.6rem;
 }
 /*# sourceMappingURL=main.css.map */
